@@ -57,14 +57,34 @@ repo sync -c -f --force-sync
 > ```
 <br>
 
+## 🩹 Apply Patches
+7. Clone patches into ~/patches
+```bash
+cd ~/
+git clone https://github.com/8890q/patches
+```
+<br>
+
+8. Move apply.sh into the `los` directory
+```bash
+mv patches/apply.sh los/
+```
+<br>
+
+9. Apply patches
+```bash
+cd los
+bash apply.sh
+```
+
 ## 🛠️ Building ROM
-7. Load device list
+10. Load device list
 ```bash
 . build/envsetup.sh
 ```
 <br>
 
-8. Initiate build
+11. Initiate build
 ```
 breakfast <device_codename>
 make bacon -j8
