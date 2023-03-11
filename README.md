@@ -66,8 +66,11 @@ repo sync -c -f --force-sync
 
 8. Initiate build
 ```
-brunch <device_codename>
+breakfast <device_codename>
+make bacon -j8
 ```
+> ℹ️ Replace -j8 with the number of CPU threads you want to use. E.g. 20 threads: -j20. If build runs out of memory, try lowering the number of threads used
+
 > ℹ️ Device codename can be the following:
 > - dreamlte
 > - dream2lte
