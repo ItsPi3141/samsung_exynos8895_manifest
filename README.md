@@ -76,6 +76,7 @@ mv patches/apply.sh los/
 cd los
 bash apply.sh
 ```
+<br>
 
 ## 🛠️ Building ROM
 10. Load device list
