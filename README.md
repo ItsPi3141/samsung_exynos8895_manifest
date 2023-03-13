@@ -36,14 +36,14 @@ cd los
 
 4. Initialize a local repository with LineageOS
 ```bash
-repo init -u https://github.com/LineageOS/android.git -b lineage-20.0 --depth=1
+repo init -u https://github.com/LineageOS/android.git -b lineage-19.0 --depth=1
 ```
 <br>
 
 5. Create a `local_manifests` directory and copy the required manifest files to that directory
 ```bash
 mkdir .repo/local_manifests
-wget -O .repo/local_manifests/exynos8895.xml 'https://raw.githubusercontent.com/ItsPi3141/samsung_exynos8895_manifest/lineage-20.0/exynos8895.xml'
+wget -O .repo/local_manifests/exynos8895.xml 'https://raw.githubusercontent.com/ItsPi3141/samsung_exynos8895_manifest/lineage-19.0/exynos8895.xml'
 ```
 <br>
 
