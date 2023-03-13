@@ -16,4 +16,5 @@
     <!-- LineageOS Stuff -->
     <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" revision="lineage-20" remote="github" />
     <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" revision="lineage-20" remote="github" />
+    <project name="LineageOS/android_device_lineage_sepolicy" path="device/lineage/sepolicy" revision="lineage-20.0" remote="github" />
 </manifest>
