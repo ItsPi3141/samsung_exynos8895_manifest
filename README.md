@@ -90,8 +90,6 @@ If you are building for a ROM other than LineageOS, you will need to modify Line
 
 - device/samsung/greatlte/AndroidProducts.mk
 - device/samsung/greatlte/lineage_greatlte.mk
-
-- device/samsung/universal8895-common/BoardConfigCommon.mk
 <br>
 
 The following files will need to be renamed accordingly:
