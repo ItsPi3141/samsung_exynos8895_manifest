@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="gh" fetch="https://gh.com/" />
+  <remote name="gh" fetch="https://github.com/" />
     <!-- Device Tree -->
     <project name="8890q/android_device_samsung_dreamlte" path="device/samsung/dreamlte" remote="gh" revision="lineage-19.1" />
     <project name="8890q/android_device_samsung_dream2lte" path="device/samsung/dream2lte" remote="gh" revision="lineage-10.1" />
