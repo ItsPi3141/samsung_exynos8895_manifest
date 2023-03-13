@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="github" fetch="https://github.com/" />
+  <remote name="gh" fetch="https://gh.com/" />
     <!-- Device Tree -->
-    <project name="8890q/android_device_samsung_dreamlte" path="device/samsung/dreamlte" remote="github" revision="lineage-19.1" />
-    <project name="8890q/android_device_samsung_dream2lte" path="device/samsung/dream2lte" remote="github" revision="lineage-10.1" />
-    <project name="8890q/android_device_samsung_greatlte" path="device/samsung/greatlte" remote="github" revision="lineage-19.1" />
+    <project name="8890q/android_device_samsung_dreamlte" path="device/samsung/dreamlte" remote="gh" revision="lineage-19.1" />
+    <project name="8890q/android_device_samsung_dream2lte" path="device/samsung/dream2lte" remote="gh" revision="lineage-10.1" />
+    <project name="8890q/android_device_samsung_greatlte" path="device/samsung/greatlte" remote="gh" revision="lineage-19.1" />
     
     <!-- Kernel -->
-    <project name="8890q/android_device_samsung_universal8895-common" path="device/samsung/universal8895-common" remote="github" revision="lineage-19.1" />
-    <project name="exynos8895/android_kernel_samsung_universal8895" path="kernel/samsung/universal8895" remote="github" revision="lineage-19.0" />
+    <project name="8890q/android_device_samsung_universal8895-common" path="device/samsung/universal8895-common" remote="gh" revision="lineage-19.1" />
+    <project name="exynos8895/android_kernel_samsung_universal8895" path="kernel/samsung/universal8895" remote="gh" revision="lineage-19.0" />
   
     <!-- Proprietary Blobs -->
-    <project name="8890q/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="lineage-19.0" />
+    <project name="8890q/proprietary_vendor_samsung" path="vendor/samsung" remote="gh" revision="lineage-19.0" />
     
     <!-- LineageOS Stuff -->
-    <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" revision="lineage-19.0" remote="github" />
-    <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" revision="lineage-19.0" remote="github" />
-    <project name="LineageOS/android_device_lineage_sepolicy" path="device/lineage/sepolicy" revision="lineage-19.0" remote="github" />
+    <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" revision="lineage-19.0" remote="gh" />
+    <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" revision="lineage-19.0" remote="gh" />
+    <!-- <project name="LineageOS/android_device_lineage_sepolicy" path="device/lineage/sepolicy" revision="lineage-19.0" remote="gh" /> -->
 </manifest>
