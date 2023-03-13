@@ -53,7 +53,7 @@ repo sync -c -f --force-sync
 ```
 > ℹ️ If you have limited bandwidth, use this instead
 > ```bash
-> repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --optimized-fetch
+> repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 > ```
 <br>
 
