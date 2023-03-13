@@ -78,6 +78,35 @@ bash apply.sh
 ```
 <br>
 
+## 📝 Modifying Device Tree
+> ℹ️ If you are building LineageOS, you can skip this section
+
+If you are building for a ROM other than LineageOS, you will need to modify LineageOS references in the device tree. The following files will need to be modified according to your ROM:
+- device/samsung/dreamlte/AndroidProducts.mk
+- device/samsung/dreamlte/lineage_dreamlte.mk
+
+- device/samsung/dream2lte/AndroidProducts.mk
+- device/samsung/dream2lte/lineage_dream2lte.mk
+
+- device/samsung/greatlte/AndroidProducts.mk
+- device/samsung/greatlte/lineage_greatlte.mk
+
+- device/samsung/universal8895-common/BoardConfigCommon.mk
+<br>
+
+The following files will need to be renamed accordingly:
+- device/samsung/dreamlte/lineage_dreamlte.mk
+- device/samsung/dreamlte/lineage.dependencies
+
+- device/samsung/dream2lte/lineage_dream2lte.mk
+- device/samsung/dream2lte/lineage.dependencies
+
+- device/samsung/greatlte/lineage_greatlte.mk
+- device/samsung/greatlte/lineage.dependencies
+
+- device/samsung/universal8895-common/lineage.dependencies
+<br>
+
 ## 🛠️ Building ROM
 10. Load device list
 ```bash
